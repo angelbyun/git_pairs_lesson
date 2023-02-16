@@ -14,10 +14,10 @@ class BankAccount
   end
 
   def withdraw(amount)
-    @balance = @balance - amount.to_f
+    checking - balance
   end
 
   def verify?(id, pin)
-
+    
   end
 end
